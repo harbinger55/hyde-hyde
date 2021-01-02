@@ -21,14 +21,14 @@
 	{{ with .Site.Params.social.gitlab }}
 	<a href="https://{{ $gitlab_domain }}/{{.}}" rel="me"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
-	{{ with .Site.Params.social.instagram }}
-	<a href="https://instagram.com/{{.}}" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
-	{{ end }}
 	{{ with .Site.Params.social.youtube }}
 	<a href="https://www.youtube.com/{{.}}" rel="me"><i class="fab fa-youtube fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.twitch }}
 	<a href="https://twitch.tv/{{.}}" rel="me"><i class="fab fa-twitch fa-lg" aria-hidden="true"></i></a>
+	{{ end }}
+	{{ with .Site.Params.social.instagram }}
+	<a href="https://instagram.com/{{.}}" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
 	{{ end }}
 	{{ with .Site.Params.social.linkedin }}
 	<a href="https://linkedin.com/in/{{.}}" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
